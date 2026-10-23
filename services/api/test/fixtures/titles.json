@@ -1,0 +1,11 @@
+[
+  {
+    "id": "demo-1",
+    "title": "Test Movie",
+    "durationMs": 600000,
+    "videoUrl": "https://example.com/video.mp4",
+    "subtitles": "sample.srt",
+    "license": "test-fixture-only",
+    "poster": "posters/test-poster.jpg"
+  }
+]

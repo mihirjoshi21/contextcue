@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180 Leanback banner: dark cinematic background + accent "spoiler-safe eye" mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path
+        android:pathData="M0,0h320v180h-320z"
+        android:fillColor="#0A0E14" />
+
+    <path
+        android:pathData="M0,0h320v6h-320z"
+        android:fillColor="#6C63FF" />
+
+    <!-- stylised eye / lens mark -->
+    <path
+        android:pathData="M60,90 C80,60 130,60 150,90 C130,120 80,120 60,90 Z"
+        android:fillColor="#6C63FF"
+        android:fillAlpha="0.85" />
+    <path
+        android:pathData="M105,90m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"
+        android:fillColor="#0A0E14" />
+    <path
+        android:pathData="M105,90m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:fillColor="#9C95FF" />
+
+    <!-- play triangle -->
+    <path
+        android:pathData="M190,66 L190,114 L232,90 Z"
+        android:fillColor="#F5F3FF" />
+
+    <path
+        android:pathData="M60,140h200v3h-200z"
+        android:fillColor="#3A3F4C" />
+</vector>

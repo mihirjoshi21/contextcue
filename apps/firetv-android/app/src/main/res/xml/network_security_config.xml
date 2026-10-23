@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Local-dev / hackathon configuration: the backend usually runs unencrypted on a LAN box
+  or the emulator host (10.0.2.2). Cleartext is allowed for ALL domains so a judge can
+  point this at any http:// LAN IP from the Settings screen without rebuilding.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

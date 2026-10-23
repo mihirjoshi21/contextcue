@@ -1,0 +1,30 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+content/video/
+cdk.out/
+.DS_Store
+# android
+apps/firetv-android/.gradle/
+apps/firetv-android/build/
+apps/firetv-android/app/build/
+apps/firetv-android/local.properties
+*.apk
+.idea/
+integrations/react-native-multi-tv-app-sample/
+apps/firetv-android/contextcue-sdk/build/
+**/build/
+tools.txt
+# internal working notes (kept locally, not published)
+docs/demo/
+docs/research/
+docs/DECISIONS.md
+docs/REQUESTS.md
+docs/demo-thumbnail.jpg
+docs/demo-video-script.md
+docs/devpost-*
+docs/feature-requests.md
+docs/product-feedback.md
+MORNING.md

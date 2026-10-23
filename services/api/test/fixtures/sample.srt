@@ -1,0 +1,23 @@
+1
+00:00:01,000 --> 00:00:04,000
+Alice: Hello there. I'm Alice.
+
+2
+00:00:05,000 --> 00:00:08,000
+Bob: Nice to meet you, Alice. I'm Bob.
+
+3
+00:00:10,000 --> 00:00:14,000
+Alice: I found a strange brass key today.
+
+4
+00:00:16,000 --> 00:00:20,000
+Bob: Careful, that key looked important.
+
+5
+00:05:00,000 --> 00:05:04,000
+Bob: SECRET_FUTURE_LINE it turns out Carol was the killer all along.
+
+6
+00:05:10,000 --> 00:05:15,000
+Alice: SECRET_FUTURE_LINE I can't believe Carol betrayed us in the end.

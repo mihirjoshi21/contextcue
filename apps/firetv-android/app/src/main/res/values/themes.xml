@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ContextCue" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorBackground">@color/cc_background</item>
+        <item name="android:statusBarColor">@color/cc_background</item>
+        <item name="android:navigationBarColor">@color/cc_background</item>
+        <item name="android:windowBackground">@color/cc_background</item>
+    </style>
+</resources>

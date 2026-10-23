@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tears-of-steel",
+    "title": "Tears of Steel",
+    "durationMs": 734000,
+    "videoUrl": "https://archive.org/download/Tears-of-Steel/tears_of_steel_720p.mp4",
+    "subtitles": "subtitles/tears-of-steel.en.srt",
+    "license": "CC-BY 3.0 © Blender Foundation | mango.blender.org",
+    "poster": "posters/tears-of-steel.jpg"
+  },
+  {
+    "id": "sintel",
+    "title": "Sintel",
+    "durationMs": 888000,
+    "videoUrl": "https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4",
+    "subtitles": "subtitles/sintel.en.srt",
+    "license": "CC-BY 3.0 © Blender Foundation | durian.blender.org",
+    "poster": "posters/sintel.jpg"
+  },
+  {
+    "id": "night-of-the-living-dead-1968",
+    "title": "Night of the Living Dead",
+    "durationMs": 6009000,
+    "videoUrl": "https://archive.org/download/mmcmor-Public_Domain_Classics_-_Night_of_the_Living_Dead_1968/Public_Domain_Classics_-_Night_of_the_Living_Dead_1968.mp4",
+    "subtitles": "subtitles/night-of-the-living-dead-1968.en.srt",
+    "license": "Public Domain (US) — 1968 theatrical release lacked required copyright notice; distributed via archive.org, English captions auto-generated (ASR) and cleaned for this project",
+    "poster": "posters/night-of-the-living-dead-1968.jpg",
+    "playbackStartMs": 260710,
+    "skipRanges": [
+      { "startMs": 0, "endMs": 260710, "label": "Broadcast host segment" },
+      { "startMs": 2457359, "endMs": 2572309, "label": "Broadcast host segment" },
+      { "startMs": 5920000, "endMs": 6009000, "label": "Broadcast host segment" }
+    ]
+  }
+]

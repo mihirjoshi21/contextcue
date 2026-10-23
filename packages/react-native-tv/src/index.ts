@@ -1,0 +1,11 @@
+export { useContextCue, type ContextCue, type UseContextCueOptions } from './useContextCue.js';
+export { ContextCueOverlay, ContextCueAskButton, type ContextCueOverlayProps, type ContextCueAskButtonProps } from './components.js';
+export { ContextCueController, type ContextCueOptions, type ContextCueViewState, type PlayAudio, type PlayerHandlers } from './controller.js';
+export { createApiClient, ApiError, type ApiClient, type FetchLike } from './api.js';
+export { HeartbeatThrottle } from './heartbeat.js';
+export { SharedAnswerDeduper } from './sharedAnswer.js';
+export { panelReducer, initialPanelState, type PanelState, type PanelAction, type AskState, type PanelView } from './machine.js';
+export { formatTimestamp, spoilerBadgeText, citationSeekMs, companionUrl } from './format.js';
+export { ASK_CHIPS, PRODUCT_NAME, type AskChipDef } from './constants.js';
+export { theme } from './theme.js';
+export type * from './types.js';

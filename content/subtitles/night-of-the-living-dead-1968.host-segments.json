@@ -1,0 +1,26 @@
+[
+  {
+    "startMs": 0,
+    "endMs": 260710,
+    "label": "Broadcast host intro (McMinnville Community Media host talking over the opening titles)",
+    "firstLine": "Greetings all you kept cats.",
+    "lastLine": "...and filmed in cheaply grainy black and white. Here is Night of the Living Dead.",
+    "notes": "Host talks 0:00–~1:57; then ~1:57–4:20 is silent (the film's own title/credits sequence, no speech in the raw ASR either way, so the exact inner boundary doesn't matter). First real film dialogue starts at 4:20.710 (\"They ought to make the day the time changes...\")."
+  },
+  {
+    "startMs": 2457359,
+    "endMs": 2572309,
+    "label": "Broadcast host segment (mid-film digression: reviews, critics, Romero's career, franchise legacy)",
+    "firstLine": "Reviews were mixed when Night of the Living Dead was first released.",
+    "lastLine": "Okay, whether you like it or not, let's head back to the farmhouse.",
+    "notes": "Spliced into the middle of the film's in-universe radio news bulletin (interrupts mid-sentence right after '...having been partially devoured.' -- the news bulletin then repeats/re-establishes that same line once the film resumes, confirming a real edit point, not scripted repetition). Discusses the director by name and franchise legacy -- a genuine world-knowledge spoiler vector, distinct from the ending twist itself."
+  },
+  {
+    "startMs": 5920000,
+    "endMs": 6009000,
+    "label": "Broadcast host outro (explicitly narrates/critiques the ending)",
+    "firstLine": "Over 50 years after its release, critics and film historians continue to argue about Night of the Living Dead.",
+    "lastLine": "...for McMinnville Community Media. I'm Walt Height. I'll see you next time.",
+    "notes": "endMs is the reported total file duration (6009000ms / 1:40:09 per archive.org metadata); the last spoken outro cue ends at 1:39:51, remainder is likely trailing silence/music. This segment explicitly spoils the ending (\"the grim fate of Dwayne Jones, who survived the ghouls only to be shot by...a redneck posse\")."
+  }
+]

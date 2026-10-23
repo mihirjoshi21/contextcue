@@ -1,0 +1,37 @@
+{
+  "name": "@contextcue/react-native-tv",
+  "version": "0.1.0",
+  "description": "Drop-in React Native TV SDK for ContextCue: spoiler-safe AI Q&A overlay for Fire OS (react-native-tvos) and Vega OS (React Native for Vega). No native modules.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react-native": "^0.76.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["react-native", "tvos", "fire-tv", "vega", "spoiler-free", "ai", "contextcue"]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "@contextcue/core",
+  "version": "0.2.0",
+  "description": "Spoiler-safe subtitle windowing, BM25 retrieval, prompt building, and leak-guard for AI viewing companions. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "development": "./dist/index.js",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4",
+    "fast-check": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contextcue/contextcue"
+  },
+  "keywords": [
+    "spoiler-free",
+    "subtitles",
+    "srt",
+    "vtt",
+    "bm25",
+    "llm",
+    "prompt-engineering"
+  ]
+}
